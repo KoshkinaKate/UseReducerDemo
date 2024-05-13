@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  /* border: solid aquamarine; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url('https://wallpapers.com/images/hd/cool-simple-smiley-face-background-rttwpq8x16gg5zd4.jpg');
+  height: 100vh;
+  color: white;
+
 }
 
 .App-logo {
@@ -35,4 +41,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+.title{
+  font-size: 60px;
+  margin: 10px;
+}
+.count-div{
+  /* border: solid pink; */
+  font-size: 40px;
+}
+.btn-dcrmnt, .btn-incrmnt{
+  /* border: solid green; */
+  height: 30px;
+  width:50px;
+  margin: 13px 9px 3px 9px;
+  border-radius: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.btn-tgl{
+  height: 30px;
+  width:150px;
+  margin: 10px 9px 3px 9px;
+  border-radius: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.btn-tgl-two{
+  height: 30px;
+  width:250px;
+  margin: 10px 9px 3px 9px;
+  border-radius: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.img-main{
+  border-radius: 25px;
+  margin: 10px;
+  height: 200px;
 }
